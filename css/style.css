@@ -1,0 +1,389 @@
+@font-face {
+	font-family: "BebasNeue";
+	src: url("../fonts/bebas/BebasNeueRegular.otf") format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+body, html {
+	margin: 0 0 0 0;
+	position: relative;
+	background: #a0c75a;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+	border: none;
+}
+
+.wrapper {
+	width: 967px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.clear {
+	clear: both;
+}
+
+h2 {
+	padding: 0;
+	margin: 0 0 20px 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+}
+
+/* góra */
+
+#logo {
+	display: block;
+	width: 240px;
+	height: 59px;
+	margin: 25px auto 25px 33px;
+	position: relative;
+	float: left;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #333;
+	font-size: 28px;
+	line-height: 59px;
+	font-weight: 700;
+	-webkit-transition-duration: .5s;
+	-o-transition-duration: .5s;
+	transition-duration: .5s;
+}
+
+#logo a:hover {
+	text-shadow: 0 0 2px orange;
+}
+
+#tlo-gora-gradient {
+	background: url(../img/tlo-gora-gradient.jpg) no-repeat;
+	width: 967px;
+	margin: 0px auto;
+	height: 79px;
+	position: relative;
+}
+
+#gora {
+	width: 967px;
+	height: 116px;
+	background: #FFF;
+}
+
+/* nawigacja */
+
+nav {
+	position: absolute;
+	top: -16px;
+	right: 20px;
+}
+
+nav li {
+	list-style: none;
+	float: left;
+	position: relative;
+}
+
+nav li a {
+	padding: 40px 28px 12px 28px;
+	text-decoration: none;
+	display: block;
+	text-transform: uppercase;
+	font-family: "BebasNeue";
+	font-size: 24px;
+	color: #000;
+}
+
+nav li a:hover {
+	background: #4a914a;
+	color: #FFF;
+}
+
+/* baner */
+
+#baner {
+	height: 374px;
+}
+
+#baner p {
+	font-family: 'BebasNeue';
+}
+
+#baner img {
+	width: 400px;
+	position: relative;
+	top: 50px;
+	left: 50px;
+	border-radius: 15px;
+	-webkit-box-shadow: 4px 4px 10px green;
+	box-shadow: 4px 4px 10px green;
+}
+
+#slogan-gora {
+	font-size: 60px;
+	color: #fff;
+	position: absolute;
+	top: 150px;
+	left: 472px;
+}
+
+#slogan-dol {
+	font-size: 48px;
+	color: #418f30;
+	position: absolute;
+	top: 230px;
+	left: 472px;
+}
+
+/* cienie */
+
+#cien-gora-lewy {
+	background: url(../img/cien-gora-lewy.jpg) no-repeat;
+	position: absolute;
+	width: 42px;
+	height: 690px;
+	top: 0px;
+	left:-42px;
+}
+
+#cien-gora-prawy {
+	background: url(../img/cien-gora-prawy.jpg) no-repeat;
+	position: absolute;
+	width: 42px;
+	height: 690px;
+	top: 0px;
+	left: 967px;
+}
+
+#cien-baner-dol {
+	background: url(../img/cien-baner-dol.jpg) no-repeat;
+	position: absolute;
+	width: 967px;
+	height: 31px;
+	top: 690px;
+	left: 0px;
+}
+
+/* boxy gora */
+
+#boxy-gora {
+	height: 200px;
+}
+
+#box-gora-1 a {
+	position: absolute;
+	display: block;
+	width: 334px;
+	height: 200px;
+	left: 0;
+	background: url(../img/box-1.jpg) no-repeat;
+}
+
+#box-gora-2 a {
+	position: absolute;
+	display: block;
+	width: 300px;
+	height: 200px;
+	left: 334px;
+	background: url(../img/box-2.jpg) no-repeat;
+}
+
+#box-gora-3 a {
+	position: absolute;
+	display: block;
+	width: 334px;
+	height: 200px;
+	right: 0px;
+	background: url(../img/box-3.jpg) no-repeat;
+}
+
+#box-gora-1 a:hover {
+	background: url(../img/box-1-hover.jpg) no-repeat;
+}
+
+#box-gora-2 a:hover {
+	background: url(../img/box-2-hover.jpg) no-repeat;
+}
+
+#box-gora-3 a:hover {
+	background: url(../img/box-3-hover.jpg) no-repeat;
+}
+
+/* Główna zawartość */
+
+section {
+	background: #f7f7f7;
+	width: 100%;
+}
+
+#zawartosc {
+	width: 900px;
+	padding: 30px;
+	margin: 0 auto;
+}
+
+/* Artykuły*/
+
+#artykuly {
+	background: #fff;
+	margin: 70px 0px;
+	height: 299px;
+	border: 1px solid #eee;
+	position: relative;
+}
+
+#artykuly h2 {
+	text-align: center;
+}
+
+#artykuly article {
+	width: 207px;
+	height: 210px;
+	margin: 24px 0px;
+	float: left;
+	position: relative;
+	padding: 24px 5% 0 5%;
+}
+
+#drugi-art {
+	border-right: 1px solid #f2f2f2;
+	border-left: 1px solid #f2f2f2;
+}
+
+#artykuly article p {
+	height: 130px;
+	color: #707070;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 22px; 
+	text-align: center;
+}
+
+#artykuly article footer a {
+	background: #418f30;
+	color: #fff;
+	text-decoration: none;
+	position: absolute;
+	top: 240px;
+	right: 90px;
+	font-size: 12px;
+	padding: 10px 20px;
+	border: none;
+}
+
+#artykuly article footer a:hover {
+	background: #a0c75a;
+}
+
+#cien-artykuly {
+	background: url(../img/cien-artykuly-dol.jpg) no-repeat;
+	position: absolute;
+	width: 900px;
+	height: 31px;
+	top: 299px;
+	left: 0px;
+}
+
+/* popularne filmy*/
+
+#produkty a {
+	display: block;
+	position: relative;
+	width: 275px;
+	height: 184px;
+	float: left;
+	margin: 36px 36px 0 36px;
+	-webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+}
+
+#produkty a img {
+	width: 275px;
+	height: 184px;
+	border-radius: 10px;
+}
+
+#produkty a:nth-of-type(3n+1) {
+	margin: 36px 0 0 0;
+}
+
+#produkty a:nth-of-type(3n) {
+	margin: 36px 0 0 0;
+}
+
+#produkty a:hover {
+	opacity: 0.7;
+}
+
+/* stopka */
+
+#stopka {
+	background: #fff;
+	width: 100%;
+	height: 250px;
+}
+
+#zawartosc-stopki {
+	width: 900px;
+	padding: 0 30px;
+	position: relative;
+	margin: 0px auto;
+}
+
+#stopka div > div {
+	float: left;
+	width: 180px;
+}
+
+.info {
+	margin-left: 60px;
+}
+
+#stopka ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+#stopka ul li {
+	padding: 5px 0;
+	font-size: 12px;
+	color: #707070;
+}
+
+#stopka ul li a {
+	text-decoration: none;
+	color: #707070;
+}
+
+#stopka ul li a:hover {
+	color: #418f30;
+}
+
+#stopka #kontakt a {
+	color: #418f30;
+}
+
+#stopka h3 {
+	margin: 45px 0 25px 0;
+	font-family: 'BebasNeue';
+	font-weight: normal;
+}
+
+#dol-strony {
+	width: 100%;
+	background: #a0c75a;
+	height: 35px;
+}
+
+#dol-strony p {
+	text-align: center;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 35px;
+	color: #111;
+	margin: 0;
+}
